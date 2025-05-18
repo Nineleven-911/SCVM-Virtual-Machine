@@ -2,10 +2,8 @@ package kt.hairinne.SCVM
 
 import kt.hairinne.SCVM.VirtualMachine.RunningFunctions
 import kt.hairinne.SCVM.VirtualMachine.StackVM.StackVM
-import kt.hairinne.SCVM.prepose.KArgsParser
-import kt.hairinne.prepose.byteListOfInts
+import kt.hairinne.SCVM.prepose.byteListOfInts
 import java.io.File
-import kotlin.reflect.typeOf
 
 fun main(args: Array<String>) {
     val stackVM = StackVM(

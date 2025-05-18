@@ -1,6 +1,8 @@
 package kt.hairinne.SCVM.VirtualMachine.StackVM
 
-import kt.hairinne.prepose.*
+import kt.hairinne.SCVM.prepose.byteListOfInts
+import kt.hairinne.SCVM.prepose.getKey
+import kt.hairinne.SCVM.prepose.toByteList
 
 val cmd2Byte: Map<String, Byte> = mapOf(
     "push"  to 0x11,

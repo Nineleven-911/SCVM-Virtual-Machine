@@ -1,9 +1,8 @@
 package kt.hairinne.SCVM.VirtualMachine.StackVM
 
-import kt.hairinne.prepose.byteListInHex
-import kt.hairinne.prepose.byteListOfInts
-import kt.hairinne.prepose.getKey
-import kt.hairinne.prepose.longExpand
+import kt.hairinne.SCVM.prepose.byteListOfInts
+import kt.hairinne.SCVM.prepose.getKey
+import kt.hairinne.SCVM.prepose.longExpand
 import java.io.File
 
 class StackVM(
