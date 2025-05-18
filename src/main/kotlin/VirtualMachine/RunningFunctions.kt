@@ -7,8 +7,7 @@ class RunningFunctions {
     companion object {
         fun errorReport(
             VM: StackVM,
-            exception: Exception,
-            save: Boolean = false) {
+            exception: Exception) {
             println("SCVM exited.")
 
             println("""SCVM Arguments:
