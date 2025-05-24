@@ -14,7 +14,6 @@ fun main(args: Array<String>) {
 
     try {
         if (!args.isEmpty()) {
-
             when (args[0]) {
                 "--compile" -> {
                     val file = File(args[1])
